@@ -1,0 +1,28 @@
+{
+  "viewItems": [
+    {
+      "viewType": "ONE_LINE_TEXT",
+      "viewObejct": {
+        "titleText": "정자역"
+      }
+    },{
+      "viewType": "ONE_IMAGE",
+      "viewObejct": {
+        "imageVO" : { //판교역
+          "url": "https://w.namu.la/s/785497ed5645e9da8382e6f063ddf5ae71e2e6579979976dd2d34a5c570c5b0673f7622eda1ee6c6d09953599a3c0631d2bbc45dfc0bfa217577db40795aa8020f7442cd0d20adc940bf51efe0244a69518530142ac2dabe506cde6555431149a2d19e75aa376e1fb99c08a90e244c33",
+          "width": 1024,
+          "height": 765
+        }
+      }
+    },{
+      "viewType": "ONE_IMAGE",
+      "viewObejct": {
+        "imageVO" : { //사당역
+          "url": "https://w.namu.la/s/c5d3d06335e8a4e19f201594792520e66212780df53f6a9085ca022538933500e74d2674f72521f0d19489c1a325497811b97d55b740179ed24e321051ba6dd9f059abd29dbc67681ad907cf5cd789ccc9874d7bfbe2df88c91afc38d8c2edde340bc3b48f5da9f4f463d216b27e373d",
+          "width": 1024,
+          "height": 765
+        }
+      }
+    }
+  ]
+}
