@@ -4,7 +4,6 @@ data class UIResponse(
     val viewItems: ArrayList<ViewItem>
 )
 
-
 data class ViewItem(
     val viewType: String,
     val viewObject: ViewObject

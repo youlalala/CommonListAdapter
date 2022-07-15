@@ -12,7 +12,6 @@ class OneImageViewHolder(
     ) : CommonViewHolder(binding) {
         override fun bind(item: ViewObject) {
             val imageVo = item.imageVO!!
-            Log.i("youla", "imageVo.url: ${imageVo.url}")
             Glide.with(binding.root)
                 .load(imageVo.url)
                 .override(imageVo.width, imageVo.height)

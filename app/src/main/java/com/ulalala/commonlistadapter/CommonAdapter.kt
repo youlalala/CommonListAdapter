@@ -26,12 +26,7 @@ class CommonAdapter(
     }
 
    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CommonViewHolder {
-         return when (viewType){
-            0 -> OneLineViewHolder(ItemOneLineBinding.inflate(LayoutInflater.from(parent.context), parent, false))
-            1 -> TwoLineViewHolder(ItemTwoLineBinding.inflate(LayoutInflater.from(parent.context), parent, false))
-             2 -> OneImageViewHolder(ItemOneImageBinding.inflate(LayoutInflater.from(parent.context), parent, false))
-            else -> throw IllegalArgumentException("Unknown view type")
-         }
+         return CommonViewHolderFactory.createViewHolder(parent, viewType)
    }
 
     override fun getItemCount(): Int {
