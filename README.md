@@ -1,4 +1,4 @@
-# CommonListAdapter
+# MultiViewTypeAdapter
 리사이클러뷰에 **다양한 Multi view type**을 적용시켜서 보여주기 위한 adapter 입니다.  
 또한 추가하고 싶은 view type이 생기더라라도 **adapter를 수정하지 않도록** 추상화 하였습니다.  
 
