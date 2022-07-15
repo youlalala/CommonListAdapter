@@ -2,18 +2,18 @@
   "viewItems": [
     {
       "viewType": "TWO_LINE_TEXT",
-      "viewObejct": {
+      "viewObject": {
         "titleText": "서울대입구역",
         "descText": "서울특별시 관악구 남부순환로 지하 1822"
       }
     },{
       "viewType": "ONE_LINE_TEXT",
-      "viewObejct": {
+      "viewObject": {
         "titleText": "서울대입구역"
       }
     },{
       "viewType": "ONE_IMAGE",
-      "viewObejct": {
+      "viewObject": {
         "imageVO" : {
           "url": "https://w.namu.la/s/c5d3d06335e8a4e19f201594792520e66212780df53f6a9085ca022538933500e74d2674f72521f0d19489c1a325497811b97d55b740179ed24e321051ba6dd9f059abd29dbc67681ad907cf5cd789ccc9874d7bfbe2df88c91afc38d8c2edde340bc3b48f5da9f4f463d216b27e373d",
           "width": 1024,
