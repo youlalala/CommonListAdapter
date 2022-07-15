@@ -1,10 +1,10 @@
 package com.ulalala.commonlistadapter
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.google.gson.Gson
+import com.ulalala.commonlistadapter.adapter.CommonAdapter
 import com.ulalala.commonlistadapter.data.UIResponse
 import com.ulalala.commonlistadapter.databinding.ActivityMainBinding
 
